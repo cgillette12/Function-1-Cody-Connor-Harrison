@@ -33,7 +33,6 @@ function createGreeting(name,age){
     return 'I was born in '+yob;
 }
 
-
 function yearOfBirth(age){
     if (age<0){
         throw new Error("Age can not be negative");
