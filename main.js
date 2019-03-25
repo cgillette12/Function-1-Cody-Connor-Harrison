@@ -55,3 +55,8 @@ function checkifdefined(name,age){
     }
 }
 
+function isNumber(num){
+    if(typeof(num) !== Number){
+        throw new error ("error");
+    }
+} 
