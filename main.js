@@ -19,3 +19,15 @@ function createGreeting(name,age){
     const yob=getYearOfBirth(age);
     return 'I was born in '+yob;
 }
+function yearOfBirth(age){
+    if (age<0){
+        throw new Error("Age can not be negative");
+    }
+    return 2019-age;
+}
+try {
+    const greeting1=createGreeting(age);
+}
+catch{
+    return "Age can not be negative";
+}
