@@ -1,3 +1,17 @@
+
+
+
+function createGreeting(){
+console.log('hi my name is Cody Gillette');
+}
+createGreeting();
+
+function createGreeting(name,age){
+    return "Hi, my name is "+name+"and I'm "+age+"years old";
+}
+
+
+
 console.log("Hi, my name is Chris and I'm 29 years old");
 function createGreeting(){
     console.log("Hi, my name is Chris and I'm 29 years old");
@@ -8,6 +22,8 @@ function createGreeting(){
 function createGreeting(name,age){
     return "Hi, my name is "+name+"and I'm "+age+"years old";
 }
+
+
 function createGreeting(name,age){
     const yearOfBirth = 2019-age;
     return 'I was born in '+yearOfBirth;
@@ -19,6 +35,7 @@ function createGreeting(name,age){
     const yob=getYearOfBirth(age);
     return 'I was born in '+yob;
 }
+
 function yearOfBirth(age){
     if (age<0){
         throw new Error("Age can not be negative");
@@ -31,8 +48,10 @@ try {
 catch{
     return "Age can not be negative";
 }
+
 function checkifdefined(name,age){
     if(typeof(name)!=="undefined"||typeof(age)!=="undefined"){
         throw new error("error");
     }
 }
+
