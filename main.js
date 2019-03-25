@@ -8,3 +8,7 @@ function createGreeting(){
 function createGreeting(name,age){
     return "Hi, my name is "+name+"and I'm "+age+"years old";
 }
+function createGreeting(name,age){
+    const yearOfBirth = 2019-age;
+    return 'I was born in '+yearOfBirth;
+}
