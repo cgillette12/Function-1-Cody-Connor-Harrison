@@ -1,1 +1,4 @@
-console.log('hi my name is Cody Gillette')
+function createGreeting(){
+console.log('hi my name is Cody Gillette');
+}
+createGreeting();
